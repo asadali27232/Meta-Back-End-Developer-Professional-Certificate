@@ -17,6 +17,6 @@ sandwich = input('1 sandwich @: $ ')
 # Modify the line below
 cake = input('1 cake @: $ ')
 
-bill_total = int(coffee) + int(sandwich) + int(cake)
+bill_total = float(coffee) + float(sandwich) + float(cake)
 
 print('Your total bill is $', bill_total)
